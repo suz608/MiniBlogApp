@@ -11,7 +11,7 @@ export const getPosts = asyncHandler(async (req, res) => {
 });
 
 // @desc    Set Post
-// @route   POST /api/Posts
+// @route   POST /api/posts
 // @access  Private
 export const setPost = asyncHandler(async (req, res) => {
   if (!req.body.text) {
@@ -28,7 +28,7 @@ export const setPost = asyncHandler(async (req, res) => {
 });
 
 // @desc    Update Post
-// @route   PUT /api/Posts/:id
+// @route   PUT /api/posts/:id
 // @access  Private
 export const updatePost = asyncHandler(async (req, res) => {
   const post = await Post.findById(req.params.id);
@@ -57,7 +57,7 @@ export const updatePost = asyncHandler(async (req, res) => {
 });
 
 // @desc    Delete Post
-// @route   DELETE /api/Posts/:id
+// @route   DELETE /api/posts/:id
 // @access  Private
 export const deletePost = asyncHandler(async (req, res) => {
 
