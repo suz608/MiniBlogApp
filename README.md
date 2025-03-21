@@ -84,6 +84,7 @@ JWT (JSON Web Token): User authentication is handled via JWT, ensuring secure to
 ## Screenshots
 Here are some screenshots of the app in action:
 - Home Page:
+  ![Home Page Screenshot](AppInAction/Homepage.jpg)
 - Log in Page:
   ![LogIn Page Screenshot](AppInAction/LogInPage.png)
 - Sign up Page:
