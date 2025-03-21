@@ -69,7 +69,9 @@ MONGO_URI=mongodb://your-username:your-password@your-mongo-host:your-port/your-d
 JWT_SECRET=your-secret-key-here
 ```
 3. Start the backend server:
+```
 npm run server
+```
 
 ## Technical Implementation
 ### Frontend:
