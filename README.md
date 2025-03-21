@@ -44,8 +44,9 @@ npm run dev
 ```
 
 ### Backend Setup
-1. Install dependencies (The package.json and package-lock.json files for backend are in the main branch. No need to navigate to the backend directory.):
+1. Navigate to the backend directory and install dependencies:
 ```
+cd backend
 npm install
 ```
 2. Set up .env file.
