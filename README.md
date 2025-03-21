@@ -14,7 +14,7 @@ MiniBlogApp is a full-stack MEVN (MongoDB, Express.js, Vue.js, Node.js) app desi
 
 The initial design was created using [Figma](https://www.figma.com/). 
 
-![Figma Design](link-to-image-or-screenshot)
+![Figma Design](AppInAction/InitialFigmaDesign.png)
 
 ## Installation
 
@@ -87,9 +87,15 @@ Here are some screenshots of the app in action:
 - Log in Page:
   ![LogIn Page Screenshot](AppInAction/LogInPage.png)
 - Sign up Page:
+  ![SignUp Page Screenshot](AppInAction/SignUpPage.png)
 - Posts Page:
+  ![Posts Page Screenshot](AppInAction/PostsPage.jpg)
 - Create Post Page:
+  ![Create Post Page Screenshot](AppInAction/CreateNewPostPage.png)
 - Edit Post Page:
+  ![Edit Post Page Screenshot](AppInAction/EditNewPostPage.png)
+- Profile Page:
+  ![Profile Page Screenshot](AppInAction/ProfilePage.png)
 
 ## Future Features
 - User Profile Modification: Allow user to manage their personal information and login credentials.
