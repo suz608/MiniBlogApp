@@ -94,9 +94,9 @@ Here are some screenshots of the app in action:
 - Create Post Page:
   ![Create Post Page Screenshot](AppInAction/CreateNewPostPage.png)
 - Edit Post Page:
-  ![Edit Post Page Screenshot](AppInAction/EditNewPostPage.png)
+  ![Edit Post Page Screenshot](AppInAction/EditPostPage.png)
 - Profile Page:
-  ![Profile Page Screenshot](AppInAction/ProfilePage.png)
+  ![Profile Page Screenshot](AppInAction/ProfilePage.jpg)
 
 ## Future Features
 - User Profile Modification: Allow user to manage their personal information and login credentials.
