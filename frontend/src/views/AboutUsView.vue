@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import Header from '@/components/Header.vue';
-import BackButton from '@/components/BackButton.vue';
 import BottomCpn from '@/components/BottomCpn.vue';
 import NavBar from '@/components/NavBar.vue';
 
@@ -8,9 +7,6 @@ import NavBar from '@/components/NavBar.vue';
 
 <template>
     <Header/>
-    <!-- <div class="flex justify-end mr-[10%] mb-3">
-        <BackButton/>
-    </div> -->
     <NavBar/>
     <div class="container mt-10 mx-auto p-4">
       <h1 class="text-3xl font-bold text-center mb-6">Welcome to DailyInklings</h1>

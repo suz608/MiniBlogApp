@@ -1,9 +1,8 @@
 <script setup lang="ts">
 import Header from '@/components/Header.vue';
-import BackButton from '@/components/BackButton.vue';
 import { reactive } from 'vue';
-import axios from 'axios'; // Import axios to make HTTP requests
-import { useRouter } from 'vue-router'; // Import useRouter for redirection
+import axios from 'axios';
+import { useRouter } from 'vue-router'; 
 import { useToast } from 'vue-toastification';
 
 const router = useRouter(); // Initialize the Vue Router
@@ -11,26 +10,26 @@ const router = useRouter(); // Initialize the Vue Router
 const toast =useToast();
 
 const post = reactive({
-  text: '',  // Non-empty text field for the post
+  text: '', 
 });
 
 // Handle reset button click to clear the textarea
 const resetText = () => {
-  post.text = '';  // Set the textfield to empty string
+  post.text = ''; 
 }
 
 // Handle submit of the form
 const handleSubmit = async () => {
   if (!post.text.trim()) {
-    alert('Please enter some text for the post.'); // Show alert if text is empty
+    toast.error('Please enter some text for the post.'); // Show alert if text is empty
     return;
   }
 
   const token = localStorage.getItem('userToken'); // Get token from local storage
 
-  // Ensure the token is available before sending the request
+  // Ensure the login token is available before sending the request
   if (!token) {
-    alert('You must be logged in to create a post.');
+    toast.error('You must be logged in to create a post.');
     return;
   }
 
@@ -47,21 +46,22 @@ const handleSubmit = async () => {
       },
     });
 
-    // If the post is created successfully, redirect to posts list
+    // If the post is created successfully, show success message
     toast.success('Success!', {
     timeout: 2000,  // Toast will disappear after 2 seconds (2000ms)
     });
-    router.push('/my-inklings');  // Navigate to the homepage or posts listing
+    router.push('/my-inklings');  // Navigate to the inkling list after a new post is successfully created
   } catch (error) {
     console.error('Error:', error);
-    alert('An error occurred.');
+    // If the post is created unsuccessfully, show error message
+    toast.error('An error occurred.');
   }
 }
 </script>
 
 <template>
   <Header /><br />
-
+  <!-- New post form -->
   <div class="grid grid-cols-1 place-items-center mt-7">
     <form @submit.prevent="handleSubmit">
       <textarea
@@ -74,7 +74,7 @@ const handleSubmit = async () => {
       ></textarea>
 
       <div name="action-buttons" class="flex justify-evenly mt-6">
-
+        <!-- Back button -->
         <RouterLink
             to="/my-inklings"
             class="text-white bg-black border shadow-md rounded-full px-5 py-3 text-xl hover:text-neutral-400 flex items-center"

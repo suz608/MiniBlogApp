@@ -1,3 +1,5 @@
+// This is a vuex store file used to share user log in info across the app
+
 import { createStore } from 'vuex';
 
 const store = createStore({

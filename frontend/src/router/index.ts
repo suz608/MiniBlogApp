@@ -25,6 +25,7 @@ const router = createRouter({
       path: '/profile',
       name: 'profile',
       component: ProfileView,
+      // Force user to login before entering profile page
       beforeEnter: (to, from, next) => {
         if (!store.getters.isUserLoggedIn) {
           toast.error('Whoops! You need to log in to view this page.');
@@ -42,6 +43,7 @@ const router = createRouter({
       path: '/my-inklings',
       name: 'my-inklings',
       component:MyInklingsView,
+      // Force user to login before entering my inkling page
       beforeEnter: (to, from, next) => {
         if (!store.getters.isUserLoggedIn) {
           toast.error('Whoops! You need to log in to view this page.');

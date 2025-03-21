@@ -11,7 +11,7 @@ const email = ref('');
 const password = ref('');
 const errorMessage = ref('');
 const successMessage = ref('');
-const router = useRouter(); // For navigating after login
+const router = useRouter();
 
 const store = useStore();
 
@@ -49,7 +49,7 @@ const handleSubmit = async () => {
 
     // Redirect to the home page or dashboard after successful login
     setTimeout(() => {
-      router.push('/about'); // Redirect to a dashboard or home page
+      router.push('/about-us'); // Redirect to a dashboard or home page
     }, 2000); // Delay for 2 seconds to show success message
 
   } catch (error: any) {

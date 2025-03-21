@@ -13,7 +13,7 @@ const state = reactive({
   currentUser: {
     name: '',
     email: '',
-    createdAt: '', // createdAt can now be optional
+    createdAt: '',
   } as User,
   isLoading: true,
   userPosts: [] as any[], 
@@ -52,7 +52,7 @@ onMounted(async () => {
   }
 });
 
-// Computed property to calculate the days since registration
+// Calculate the days since registration
 const days = computed(() => {
   if(state.currentUser.createdAt){
     return calculateDaysSinceRegistration(state.currentUser.createdAt);
@@ -60,7 +60,7 @@ const days = computed(() => {
   return 0;
 });
 
-// Computed property to get the number of posts
+// Get the number of posts
 const numberOfPosts = computed(() => {
   return state.userPosts.length;
 });

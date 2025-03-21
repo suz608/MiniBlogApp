@@ -13,12 +13,13 @@ const userLoggedIn = computed(() => store.getters.isUserLoggedIn);
 
 <template>
     <div class="flex justify-between ml-[10vh] mr-[10vh] mt-[5vh]">
-        <!-- Set the size and margin of the logo based on viewport -->
         <RouterLink class="flex flex-shrink-0" to="/">
             <img class="h-[30vh] w-auto" :src="logo" alt="Daily Inklings" />
         </RouterLink>
         <div class="mt-[6vh]">
+            <!-- If user is not logged in, show log in & Sign up button -->
             <LogSignButton v-if="!userLoggedIn"/>
+            <!-- If user is logged in, show Hello component -->
             <Hello v-else/>
         </div>
     </div>
