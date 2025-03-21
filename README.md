@@ -10,7 +10,7 @@ MiniBlogApp is a full-stack MEVN (MongoDB, Express.js, Vue.js, Node.js) app desi
 - **Modern UI**: A sleek, responsive, and modern user interface styled with Tailwind CSS and PrimeIcons.
 - **User Data Storage**: MongoDB is used to store user data and blog posts.
 
-## Initial Design (produced with Figma)
+## Initial Design
 
 The initial design was created using [Figma](https://www.figma.com/). 
 
