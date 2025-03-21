@@ -12,7 +12,7 @@ MiniBlogApp is a full-stack MEVN (MongoDB, Express.js, Vue.js, Node.js) app desi
 
 ## Initial Design
 
-The initial design was created using [Figma]([https://www.figma.com/](https://www.figma.com/design/wvCYuZBstd5Mu5z47VnY3Q/DailyInklings?node-id=0-1&t=Rk1mBeKHqjTu2LcI-1)). 
+The initial design was created using Figma.
 
 ![Figma Design](AppInAction/InitialFigmaDesign.png)
 
