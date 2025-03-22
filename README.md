@@ -2,6 +2,15 @@
 
 MiniBlogApp is a full-stack MEVN (MongoDB, Express.js, Vue.js, Node.js) app designed to allow users to jot down their daily thoughts. It features encrypted user sign-up/log-in, CRUD operations for blog posts, and a modern user interface built with Vue.js, Tailwind CSS, and PrimeIcons.
 
+## Table of Contents
+- [Features](#features)
+- [Initial Design](#initial-design)
+- [Installation](#Installation)
+- [Technical Implementation](#technical-implementation)
+- [Screenshots](#screenshots)
+- [Future Features](#future-features)
+- [License](#license)
+
 ## Features
 
 - **Encrypted User Authentication**: Secure sign-up and log-in functionality.
