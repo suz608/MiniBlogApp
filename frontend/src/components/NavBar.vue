@@ -22,7 +22,7 @@ const isActiveLink = (routePath: string) => {
         <RouterLink
           to="/my-posts"
           :class="[
-            isActiveLink('/my-inklings') ? 'shadow-md' : 'bg-white text-black hover:bg-neutral-700 hover:shadow-dark-2 hover:text-white',
+            isActiveLink('/my-posts') ? 'shadow-md' : 'bg-white text-black hover:bg-neutral-700 hover:shadow-dark-2 hover:text-white',
             'sm:text-xl md:text-2xl lg:text-3xl',  
             'px-3 py-2 rounded-md font-thin'
           ]"
