@@ -5,6 +5,7 @@ import api from '../services/api';
 import Header from '@/components/Header.vue';
 import BottomCpn from '@/components/BottomCpn.vue';
 import store from '@/store/index.ts'
+import BackButton from '@/components/BackButton.vue';
 
 // Form state
 const email = ref('');
@@ -60,7 +61,10 @@ const handleSubmit = async () => {
 
 <template>
   <Header />
-  
+  <div class="flex justify-end mb-3">
+    <BackButton/>
+  </div>
+  <!-- log in component -->
   <div class="max-w-md mx-auto p-8 border border-gray-300 rounded-lg shadow-lg">
     <h2 class="text-2xl font-bold text-center mb-6">Log In</h2>
 

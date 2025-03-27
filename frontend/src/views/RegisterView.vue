@@ -6,6 +6,7 @@ import api from '@/services/api';
 import { useRouter } from 'vue-router';
 import store from '@/store/index.ts'
 import axios from 'axios';
+import BackButton from '@/components/BackButton.vue';
 
 // Form state
 const username = ref('');
@@ -83,6 +84,9 @@ const handleSubmit = async () => {
 
 <template>
   <Header />
+  <div class="flex justify-end mb-3">
+    <BackButton/>
+  </div>
 
   <div class="max-w-md mx-auto p-8 border border-gray-300 rounded-lg shadow-lg">
     <h2 class="text-2xl font-bold text-center mb-6">Sign Up</h2>
