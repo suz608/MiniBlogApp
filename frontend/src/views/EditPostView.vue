@@ -51,7 +51,7 @@ const handleSubmit = async () => {
     toast.success('Success!', {
     timeout: 2000,  // Toast will disappear after 2 seconds (2000ms)
     });
-    router.push('/my-inklings');  // Navigate to the homepage or posts listing
+    router.push('/my-posts');  // Navigate to the homepage or posts listing
   } catch (error) {
     console.error('Error:', error);
     alert('An error occurred.');
@@ -87,7 +87,7 @@ const handleSubmit = async () => {
       <div name="action-buttons" class="flex justify-evenly mt-6">
 
         <RouterLink
-            to="/my-inklings"
+            to="/my-posts"
             class="text-white bg-black border shadow-md rounded-full px-5 py-3 text-xl hover:text-neutral-400 flex items-center"
         >
             <i class="pi pi-arrow-left fill-white mr-2"></i> Back

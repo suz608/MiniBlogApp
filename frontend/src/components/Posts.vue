@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { reactive, onMounted} from 'vue';
 import type { Post } from '@/types';  
-import axios from 'axios';
 import api from '@/services/api';
 import PulseLoader from 'vue-spinner/src/PulseLoader.vue'; // Keep only one spinner
 import { useToast } from 'vue-toastification';
