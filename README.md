@@ -18,7 +18,7 @@ You can view the live demo of the project at the following URL:
 
 Recommend using browsers that support dynamic `import()`, such as the latest versions of Chrome, Edge, Safari, or Firefox, for an uncompromised user experience.
 
-[List of browsers that support dynamic `import()`](https://caniuse.com/es6-module-dynamic-import)
+[List of browsers that support dynamic import()](https://caniuse.com/es6-module-dynamic-import)
 
 ## Features
 
