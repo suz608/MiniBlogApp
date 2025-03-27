@@ -3,10 +3,9 @@ import { RouterLink } from 'vue-router';
 import logo from '@/assets/img/logo.jpg';
 import LogSignButton from './LogSignButton.vue';
 import Hello from './Hello.vue';
-import { useStore } from 'vuex';
+import store from '@/store/index.ts'
 import { computed } from "vue";
 
-const store = useStore();
 const userLoggedIn = computed(() => store.getters.isUserLoggedIn);
 
 </script>

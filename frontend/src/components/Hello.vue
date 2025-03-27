@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import { useStore } from 'vuex';
+import store from '@/store/index.ts'
 import { useRouter } from 'vue-router';
 import { ref } from 'vue';
 
-const store = useStore();
 const router = useRouter();
 const currentUser = ref(localStorage.getItem('userName') || 'Guest');
 
