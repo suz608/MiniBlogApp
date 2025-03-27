@@ -30,7 +30,7 @@ You can view the live demo of the project at the following URL:
 
 The initial design was created using Figma.
 
-![Figma Design](AppInAction/InitialFigmaDesign.png)
+![Figma Design](AppPhotos/InitialFigmaDesign.png)
 
 ## Installation
 
