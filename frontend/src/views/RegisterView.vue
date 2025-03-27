@@ -6,6 +6,7 @@ import api from '@/services/api';
 import { useRouter } from 'vue-router';
 import store from '@/store/index.ts'
 import axios from 'axios';
+import BackButton from '@/components/BackButton.vue';
 
 // Form state
 const username = ref('');
