@@ -132,19 +132,19 @@ JWT (JSON Web Token): User authentication is handled via JWT, ensuring secure to
 ## Screenshots
 Here are some screenshots of the app in action:
 - Home Page:
-  ![Home Page Screenshot](AppInAction/Homepage.jpg)
+  ![Home Page Screenshot](AppPhotos/Homepage.jpg)
 - Log in Page:
-  ![LogIn Page Screenshot](AppInAction/LogInPage.png)
+  ![LogIn Page Screenshot](AppPhotos/LogInPage.png)
 - Sign up Page:
-  ![SignUp Page Screenshot](AppInAction/SignUpPage.png)
+  ![SignUp Page Screenshot](AppPhotos/SignUpPage.png)
 - Posts Page:
-  ![Posts Page Screenshot](AppInAction/PostsPage.jpg)
+  ![Posts Page Screenshot](AppPhotos/PostsPage.jpg)
 - Create Post Page:
-  ![Create Post Page Screenshot](AppInAction/CreateNewPostPage.png)
+  ![Create Post Page Screenshot](AppPhotos/CreateNewPostPage.png)
 - Edit Post Page:
-  ![Edit Post Page Screenshot](AppInAction/EditPostPage.png)
+  ![Edit Post Page Screenshot](AppPhotos/EditPostPage.png)
 - Profile Page:
-  ![Profile Page Screenshot](AppInAction/ProfilePage.jpg)
+  ![Profile Page Screenshot](AppPhotos/ProfilePage.jpg)
 
 ## Future Features
 - User Profile Modification: Allow user to manage their personal information and login credentials.
