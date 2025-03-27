@@ -16,6 +16,10 @@ MiniBlogApp is a full-stack MEVN (MongoDB, Express.js, Vue.js, Node.js) app desi
 You can view the live demo of the project at the following URL:
 [**MiniBlogApp - Live Demo**](https://mini-blog-app-one.vercel.app)
 
+Recommend using browsers that support dynamic `import()`, such as the latest versions of Chrome, Edge, Safari, or Firefox, for an uncompromised user experience.
+
+[List of browsers that support dynamic `import()`](https://caniuse.com/es6-module-dynamic-import)
+
 ## Features
 
 - **Encrypted User Authentication**: Secure sign-up and log-in functionality.
@@ -123,6 +127,7 @@ To get started, make sure you have the following installed:
 - Vue.js 3.5.13: The frontend is built using Vue.js, a progressive JavaScript framework.
 - Tailwind CSS 4.0: Tailwind CSS is used to create a responsive, customizable UI.
 - TypeScript: The application is developed using TypeScript for enhanced developer experience and type safety.
+- Vite: This project uses Vite(instead of Vue CLI) for a lighter and faster build tool.
 - PrimeIcons: PrimeIcons is used for elegant icons that add to the modern UI experience.
 - Axios: Axios is used for making API calls to the backend.
 ### Backend:
