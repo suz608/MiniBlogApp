@@ -124,6 +124,7 @@ To get started, make sure you have the following installed:
 - Tailwind CSS 4.0: Tailwind CSS is used to create a responsive, customizable UI.
 - TypeScript: The application is developed using TypeScript for enhanced developer experience and type safety.
 - PrimeIcons: PrimeIcons is used for elegant icons that add to the modern UI experience.
+- Axios: Axios is used for making API calls to the backend.
 ### Backend:
 - Express.js: A lightweight, fast framework to build the REST API for handling blog data and user authentication.
 - MongoDB & Mongoose: MongoDB is the database for storing user information and blog posts, providing a NoSQL solution for handling dynamic and flexible data models. Mongoose is used to interact with MongoDB in an easy-to-use, schema-based manner.
