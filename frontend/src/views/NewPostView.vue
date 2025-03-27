@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import Header from '@/components/Header.vue';
 import { reactive } from 'vue';
-import axios from 'axios';
 import { useRouter } from 'vue-router'; 
 import { useToast } from 'vue-toastification';
 import api from '@/services/api';

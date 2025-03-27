@@ -4,10 +4,9 @@ import Header from '@/components/Header.vue';
 import BottomCpn from '@/components/BottomCpn.vue';
 import api from '@/services/api';
 import { useRouter } from 'vue-router';
-import { useStore } from 'vuex';
+import store from '@/store/index.ts'
 import axios from 'axios';
 
-const store = useStore();
 // Form state
 const username = ref('');
 const email = ref('');

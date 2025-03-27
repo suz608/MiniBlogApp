@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import Header from '@/components/Header.vue';
 import NavBar from '@/components/NavBar.vue';
-import axios from 'axios';
 import api from '@/services/api';
 import type { User } from '@/types/index';
 import { reactive, onMounted, computed } from 'vue';

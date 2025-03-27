@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import Header from '@/components/Header.vue';
-import { reactive, onMounted } from 'vue';
-import axios from 'axios';
+import { reactive } from 'vue';
 import api from '@/services/api';
 import { useRouter } from 'vue-router'; // Import useRouter for redirection
 import { useToast } from 'vue-toastification';

@@ -2,10 +2,9 @@
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import api from '../services/api'; 
-import axios from 'axios';
 import Header from '@/components/Header.vue';
 import BottomCpn from '@/components/BottomCpn.vue';
-import { useStore } from 'vuex';
+import store from '@/store/index.ts'
 
 // Form state
 const email = ref('');
@@ -13,8 +12,6 @@ const password = ref('');
 const errorMessage = ref('');
 const successMessage = ref('');
 const router = useRouter();
-
-const store = useStore();
 
 // Handle form submission
 const handleSubmit = async () => {
