@@ -4,6 +4,7 @@ MiniBlogApp is a full-stack MEVN (MongoDB, Express.js, Vue.js, Node.js) app desi
 
 ## Table of Contents
 - [Live Demo](#live-demo)
+- [Browser Compatibility](#browser-compatibility)
 - [Features](#features)
 - [Initial Design](#initial-design)
 - [Installation](#Installation)
@@ -16,9 +17,13 @@ MiniBlogApp is a full-stack MEVN (MongoDB, Express.js, Vue.js, Node.js) app desi
 You can view the live demo of the project at the following URL:
 [**MiniBlogApp - Live Demo**](https://mini-blog-app-one.vercel.app)
 
-Recommend using browsers that support dynamic `import()`, such as the latest versions of Chrome, Edge, Safari, or Firefox, for an uncompromised user experience.
+## Browser Compatibility
+- This app uses Vite, a powerful build tool. However, it requires browsers that support dynamic `import()` Here is a list of browsers that support dynamic `import()`:
+[Browsers with dynamic import() support](https://caniuse.com/es6-module-dynamic-import)
 
-[List of browsers that support dynamic import()](https://caniuse.com/es6-module-dynamic-import)
+- Chrome is recommanded for an uncompromised user experience.
+
+- I noticed a delay in loading the top-left logo image when it was wrapped in a RouterLink component, particularly when using Safari and when the website is hosted on the cloud. As a result, I switched from an image that could redirect the user to the homepage to a simple image.
 
 ## Features
 
