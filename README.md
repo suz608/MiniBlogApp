@@ -4,24 +4,18 @@ MiniBlogApp is a full-stack MEVN (MongoDB, Express.js, Vue.js, Node.js) app desi
 
 ## Table of Contents
 - [Live Demo](#live-demo)
-- [Browser Compatibility](#browser-compatibility)
 - [Features](#features)
 - [Initial Design](#initial-design)
 - [Installation](#Installation)
 - [Technical Implementation](#technical-implementation)
 - [Screenshots](#screenshots)
+- [Browser Compatibility](#browser-compatibility)
 - [Future Features](#future-features)
 - [License](#license)
 
 ## Live Demo
 You can view the live demo of the project at the following URL:
 [**MiniBlogApp - Live Demo**](https://mini-blog-app-one.vercel.app)
-
-## Browser Compatibility
-- This app uses Vite, a powerful build tool that it requires browsers to support dynamic `import()`. Here is a list of browsers that support dynamic `import()`:
-[Browsers with dynamic import() support](https://caniuse.com/es6-module-dynamic-import)
-
-- I noticed a delay in loading the top-left logo when it was wrapped in a RouterLink component, particularly when using some browsers and when the website is hosted on the cloud. As a result, I switched from an image that could redirect the user to the homepage to a simple image.
 
 ## Features
 
@@ -154,6 +148,10 @@ Here are some screenshots of the app in action:
   ![Edit Post Page Screenshot](AppPhotos/EditPostPage.png)
 - Profile Page:
   ![Profile Page Screenshot](AppPhotos/ProfilePage.jpg)
+
+## Browser Compatibility
+This app uses Vite, a powerful build tool that it requires browsers to support dynamic `import()`. Here is a list of browsers that support dynamic `import()`:
+[Browsers with dynamic import() support](https://caniuse.com/es6-module-dynamic-import)
 
 ## Future Features
 - User Profile Modification: Allow user to manage their personal information and login credentials.
