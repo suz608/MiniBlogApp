@@ -1,16 +1,18 @@
-// This is a vuex store file used to share user log in info across the app
-
 import { createStore } from 'vuex';
 
 const store = createStore({
   state() {
     return {
-      userLoggedIn:false, // Set default value for user login status to fasle
+      userLoggedIn: false,
+      errorMessage: '', 
     };
   },
   mutations: {
     setUserLoggedIn(state, status: boolean) {
       state.userLoggedIn = status;
+    },
+    setErrorMessage(state, errorMessage: string) {
+      state.errorMessage = errorMessage; 
     },
   },
   actions: {
@@ -20,10 +22,16 @@ const store = createStore({
     logout({ commit }) {
       commit('setUserLoggedIn', false);
     },
+    setErrorMessage({ commit }, errorMessage: string) {
+      commit('setErrorMessage', errorMessage); 
+    },
   },
   getters: {
     isUserLoggedIn(state) {
       return state.userLoggedIn;
+    },
+    errorMessage(state) {
+      return state.errorMessage; 
     },
   },
 });

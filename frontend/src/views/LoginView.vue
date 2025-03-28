@@ -33,7 +33,6 @@ const handleSubmit = async () => {
       password: password.value,
     };
 
-    // Make POST request to backend API to log in the user
     const response = await api.post('/api/users/login', userData);
     console.log(response);
 
@@ -54,7 +53,7 @@ const handleSubmit = async () => {
 
   } catch (error: any) {
     // Handle error response
-    errorMessage.value = error.message || 'Invalid credentials. Please try again.';
+    errorMessage.value = 'Invalid credentials. Please try again.';
   }
 };
 </script>
