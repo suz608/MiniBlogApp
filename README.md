@@ -18,7 +18,7 @@ You can view the live demo of the project at the following URL:
 [**MiniBlogApp - Live Demo**](https://mini-blog-app-one.vercel.app)
 
 ## Browser Compatibility
-- This app uses Vite, a powerful build tool. However, it requires browsers that support dynamic `import()` Here is a list of browsers that support dynamic `import()`:
+- This app uses Vite, a powerful build tool. However, it requires browsers that support dynamic `import()`. Here is a list of browsers that support dynamic `import()`:
 [Browsers with dynamic import() support](https://caniuse.com/es6-module-dynamic-import)
 
 - Chrome is recommanded for an uncompromised user experience.
