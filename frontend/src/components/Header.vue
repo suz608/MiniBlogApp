@@ -11,7 +11,7 @@ const userLoggedIn = computed(() => store.getters.isUserLoggedIn);
 </script>
 
 <template>
-    <div class="flex justify-between mt-[5vh] sm:h-20 md:h-35 lg:h-50">
+    <div class="flex justify-between mt-[5vh] h-27 md:h-35 lg:h-50">
         <!-- <RouterLink class="flex" to="/">
             <img class="h-[100%] w-auto aspect-[2.97/2]" src="@/assets/img/logo.jpg" alt="Daily Thoughts" />
         </RouterLink> -->
