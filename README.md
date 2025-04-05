@@ -121,10 +121,10 @@ To get started, make sure you have the following installed:
 
 ## Technical Implementation
 ### Frontend:
-- Vue.js 3.5.13: The frontend is built using Vue.js, a progressive JavaScript framework.
-- Tailwind CSS 4.0: Tailwind CSS is used to create a responsive, customizable UI.
+- Vue.js: The frontend is built using Vue.js, a progressive JavaScript framework.
+- Tailwind CSS: Tailwind CSS 4.0 is used to create a responsive, customizable UI.
 - TypeScript: The application is developed using TypeScript for enhanced developer experience and type safety.
-- Vite: This project uses Vite(instead of Vue CLI) for a lighter and faster build tool.
+- Vite: This project uses Vite for a light and fast build tool.
 - PrimeIcons: PrimeIcons is used for elegant icons that add to the modern UI experience.
 - Axios: Axios is used for making API calls to the backend.
 ### Backend:
@@ -136,7 +136,7 @@ JWT (JSON Web Token): User authentication is handled via JWT, ensuring secure to
 Here are some screenshots of the app in action:
 - Home Page:
   ![Home Page Screenshot](AppPhotos/Homepage.jpg)
-- Log in Page:
+- Login Page:
   ![LogIn Page Screenshot](AppPhotos/LogInPage.png)
 - Sign up Page:
   ![SignUp Page Screenshot](AppPhotos/SignUpPage.png)
@@ -150,7 +150,7 @@ Here are some screenshots of the app in action:
   ![Profile Page Screenshot](AppPhotos/ProfilePage.jpg)
 
 ## Browser Compatibility
-This app uses Vite, a powerful build tool which requires browsers to support dynamic `import()`. Here is a list of browsers that support dynamic `import()`:
+This app uses Vite, a powerful build tool, which requires browsers to support dynamic `import()`. Here is a list of browsers that support dynamic `import()`:
 [Browsers with dynamic import() support](https://caniuse.com/es6-module-dynamic-import)
 
 ## Future Features
