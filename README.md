@@ -19,13 +19,13 @@ You can view the live demo of the project at the following URL:
 
 ## Features
 
-- **Encrypted User Authentication**: Secure sign-up and log-in functionality.
+- **Encrypted User Authentication**: Secure sign-up and login functionality.
 - **CRUD Operations**: Users can create, read, update, and delete blog posts.
-- **RESTful API**: Backend exposed as a REST API for seamless communication.
+- **RESTful API**: Utilizes REST APIs for seamless communication.
 - **Modern UI**: A sleek, responsive, and modern user interface styled with Tailwind CSS and PrimeIcons.
 - **User Data Storage**: MongoDB is used to store user data and blog posts.
 - **Pagination**: Posts are paginated, allowing users to browse through posts in manageable chunks.
-- **Navigation Bar&Dropdown Menu**: Provides a navigation bar and a dropdown menu to navigate between different sections of the app.
+- **Page Navigation**: Provides a navigation bar and a dropdown menu, allowing users to navigate through different pages of the app.
 
 ## Initial Design
 
@@ -150,7 +150,7 @@ Here are some screenshots of the app in action:
   ![Profile Page Screenshot](AppPhotos/ProfilePage.jpg)
 
 ## Browser Compatibility
-This app uses Vite, a powerful build tool that it requires browsers to support dynamic `import()`. Here is a list of browsers that support dynamic `import()`:
+This app uses Vite, a powerful build tool which requires browsers to support dynamic `import()`. Here is a list of browsers that support dynamic `import()`:
 [Browsers with dynamic import() support](https://caniuse.com/es6-module-dynamic-import)
 
 ## Future Features
