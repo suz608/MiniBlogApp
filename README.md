@@ -64,7 +64,7 @@ To get started, make sure you have the following installed:
       ```
     - Add the following to your `.env` file:
       ```bash
-      VITE_APP_API_URL = http://localhost:3000/ ( Replace with your backend URL)
+      VITE_APP_API_URL = http://localhost:3000/  #Replace with your backend URL
       ```
 
 3. **Development Mode**: To run in development mode, run:
