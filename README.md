@@ -39,7 +39,7 @@ The initial design was created using Figma.
 
 To get started, make sure you have the following installed:
 
-- Node.js (version 14 or higher)
+- Node.js (18.18.0 or higher)
 - MongoDB running locally or a MongoDB Atlas cluster
 - npm or yarn (package manager)
 
