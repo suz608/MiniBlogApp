@@ -47,7 +47,7 @@ To get started, make sure you have the following installed:
 
 1. Clone the repository:
     ```bash
-    git clone [https://github.com/suz608/MiniBlogApp.git]
+    git clone https://github.com/suz608/MiniBlogApp.git
     cd MiniBlogApp
     ```
 
