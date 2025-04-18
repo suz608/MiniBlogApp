@@ -64,15 +64,15 @@ To get started, make sure you have the following installed:
       ```
     - Add the following to your `.env` file:
       ```bash
-      VITE_APP_API_URL = http://localhost:3000 ( Replace with your backend URL)
+      VITE_APP_API_URL = http://localhost:3000/ ( Replace with your backend URL)
       ```
 
-3. **Development Mode**: Run the Vue.js frontend development server:
+3. **Development Mode**: To run in development mode, run:
     ```bash
     npm run dev
     ```
 
-4. **Building for Production**: To generate the production-ready files, run:
+4. **Building for Production**: To generate production-ready files, run:
     ```bash
     npx vite build
     ```
@@ -89,28 +89,31 @@ To get started, make sure you have the following installed:
     cd backend
     npm install
     ```
-
-2. Set up the `.env` file:
+    If you are in the frontend folder, run this first:
+    ```bash
+    cd ..
+    ```
+3. Set up the `.env` file:
     - Create the `.env` file:
       ```bash
       touch .env
       ```
     - Add the following to your `.env` file:
       ```bash
-      # Environment Mode
-      NODE_ENV=development
+      # Environment Mode (Set it to development or production)
+      NODE_ENV=development 
 
-      # Port for the backend server
+      # Port for the backend server (You can change it to any port number you want)
       PORT=3000
 
       # MongoDB URI connection string (Replace with your MongoDB URL)
       MONGO_URI=mongodb://your-username:your-password@your-mongo-host:your-port/your-db-name
 
-      # Secret key for JWT Authentication
+      # Secret key for JWT Authentication (Set it to anything you want)
       JWT_SECRET=your-secret-key-here
       ```
 
-3. Start the backend server:
+4. Start the backend server:
     ```bash
     npm run server
     ```
@@ -150,7 +153,7 @@ Here are some screenshots of the app in action:
   ![Profile Page Screenshot](AppPhotos/ProfilePage.jpg)
 
 ## Browser Compatibility
-This app uses Vite, a powerful build tool, which requires browsers to support dynamic `import()`. Here is a list of browsers that support dynamic `import()`:
+This app uses Vite as its build tool. Vite requires the app to be run browsers that support dynamic `import()`. Here is a list of browsers that support dynamic `import()`:
 [Browsers with dynamic import() support](https://caniuse.com/es6-module-dynamic-import)
 
 ## Future Features
