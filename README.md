@@ -153,7 +153,7 @@ Here are some screenshots of the app in action:
   ![Profile Page Screenshot](AppPhotos/ProfilePage.jpg)
 
 ## Browser Compatibility
-This app uses Vite as its build tool. Vite requires the app to be run browsers that support dynamic `import()`. Here is a list of browsers that support dynamic `import()`:
+This app uses Vite as its build tool. Vite requires the app to be run in browsers that support dynamic `import()`. Here is a list of browsers that support dynamic `import()`:
 [Browsers with dynamic import() support](https://caniuse.com/es6-module-dynamic-import)
 
 ## Future Features
