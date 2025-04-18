@@ -47,7 +47,7 @@ To get started, make sure you have the following installed:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/MiniBlogApp.git
+    git clone [https://github.com/suz608/MiniBlogApp.git]
     cd MiniBlogApp
     ```
 
@@ -103,7 +103,7 @@ To get started, make sure you have the following installed:
       # Port for the backend server
       PORT=3000
 
-      # MongoDB URI connection string (replace with your actual MongoDB URL)
+      # MongoDB URI connection string (Replace with your MongoDB URL)
       MONGO_URI=mongodb://your-username:your-password@your-mongo-host:your-port/your-db-name
 
       # Secret key for JWT Authentication
