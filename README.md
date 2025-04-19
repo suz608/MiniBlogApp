@@ -1,6 +1,6 @@
 # MiniBlogApp
 
-DailyThoughts is a full-stack mini blog app designed to allow users to jot down their daily thoughts. It features a modern user interface, encrypted user sign-up/log-in, and CRUD operations on blog posts.
+DailyThoughts is a full-stack lightweight blog app designed to allow users to jot down their daily thoughts. It features a modern user interface, encrypted user sign-up/log-in, and CRUD operations on blog posts.
 
 ## Table of Contents
 - [Features](#features)
