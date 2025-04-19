@@ -1,21 +1,16 @@
 # MiniBlogApp
 
-MiniBlogApp is a full-stack MEVN (MongoDB, Express.js, Vue.js, Node.js) app designed to allow users to jot down their daily thoughts. It features encrypted user sign-up/log-in, CRUD operations for blog posts, and a modern user interface built with Vue.js, Tailwind CSS, and PrimeIcons.
+DailyThoughts is a full-stack mini blog app designed to allow users to jot down their daily thoughts. It features a modern user interface, encrypted user sign-up/log-in, and CRUD operations on blog posts.
 
 ## Table of Contents
-- [Live Demo](#live-demo)
 - [Features](#features)
 - [Initial Design](#initial-design)
 - [Installation](#Installation)
 - [Technical Implementation](#technical-implementation)
 - [Screenshots](#screenshots)
+- [Deployment](#deployment)
 - [Browser Compatibility](#browser-compatibility)
-- [Future Features](#future-features)
 - [License](#license)
-
-## Live Demo
-You can view the live demo of the project at the following URL:
-[**MiniBlogApp - Live Demo**](https://mini-blog-app-one.vercel.app)
 
 ## Features
 
@@ -152,14 +147,13 @@ Here are some screenshots of the app in action:
 - Profile Page:
   ![Profile Page Screenshot](AppPhotos/ProfilePage.jpg)
 
+## Deployment
+This app is deployed using Vercel, Render and MongDB Atlas. Here is the link:
+[**MiniBlogApp**](https://mini-blog-app-one.vercel.app)
+
 ## Browser Compatibility
 This app uses Vite as its build tool. Vite requires the app to be run in browsers that support dynamic `import()`. Here is a list of browsers that support dynamic `import()`:
 [Browsers with dynamic import() support](https://caniuse.com/es6-module-dynamic-import)
-
-## Future Features
-- User Profile Modification: Allow user to manage their personal information and login credentials.
-- Comments on Posts: Allow users to comment on blog posts.
-- User Image Upload: Users can upload a profile image and include images in blog posts.
 
 ## License
 MiniBlogApp is open-source and available under the MIT License.
