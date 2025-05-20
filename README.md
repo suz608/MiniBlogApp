@@ -10,6 +10,7 @@ DailyThoughts is a full-stack lightweight blog app designed to allow users to jo
 - [Screenshots](#screenshots)
 - [Deployment](#deployment)
 - [Browser Compatibility](#browser-compatibility)
+- [Responsive Design](#responsive-design)
 - [License](#license)
 
 ## Features
@@ -154,6 +155,18 @@ This app is deployed using Vercel, Render and MongDB Atlas. Here is the link:
 ## Browser Compatibility
 This app uses Vite as its build tool. Vite requires the app to be run in browsers that support dynamic `import()`. Here is a list of browsers that support dynamic `import()`:
 [Browsers with dynamic import() support](https://caniuse.com/es6-module-dynamic-import)
+
+## Responsive Design
+Here are some screenshots of this app on different devices:
+
+- Pixel 7:
+  ![Pixel 7 Screenshot](AppPhotos/Pixel7.png)
+- Surface Duo:
+  ![Surface Duo Screenshot](AppPhotos/SurfaceDuo.png)
+- iPad Air:
+  ![iPad Air Screenshot](AppPhotos/iPadAir.png)
+- Nest Hub Max:
+  ![Nest Hub Max Screenshot](AppPhotos/NestHubMax.png)
 
 ## License
 MiniBlogApp is open-source and available under the MIT License.
