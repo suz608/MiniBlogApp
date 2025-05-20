@@ -163,10 +163,12 @@ Here are some screenshots of this app on different devices:
   ![Pixel 7 Screenshot](AppPhotos/Pixel7.png)
 - Surface Duo:
   ![Surface Duo Screenshot](AppPhotos/SurfaceDuo.png)
-- iPad Air:
-  ![iPad Air Screenshot](AppPhotos/iPadAir.png)
 - Nest Hub Max:
   ![Nest Hub Max Screenshot](AppPhotos/NestHubMax.png)
+
+## Accessibility
+This app uses black and white colors widely to improve its accessibility. It scored 88 in lighthouse accessibility test.
+![lighthouse](AppPhotos/lighthouse.png)
 
 ## License
 MiniBlogApp is open-source and available under the MIT License.
