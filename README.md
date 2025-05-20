@@ -160,7 +160,7 @@ This app uses Vite as its build tool. Vite requires the app to be run in browser
 Here are some screenshots of this app on different devices:
 
 - Pixel 7:
-  ![Pixel 7 Screenshot](AppPhotos/Pixel7.png)
+  ![Pixel 7 Screenshot](AppPhotos/Pixel7.png | width=410)
   
 - Surface Duo:
   ![Surface Duo Screenshot](AppPhotos/SurfaceDuo.png)
