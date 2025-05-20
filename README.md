@@ -172,6 +172,7 @@ Here are some screenshots of this app on different devices:
 
 ## Accessibility
 This app uses black and white colors widely to improve its accessibility. It scored 88 in lighthouse accessibility test.
+<br>
 ![lighthouse](AppPhotos/lighthouse.png)
 
 ## License
