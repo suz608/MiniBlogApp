@@ -158,14 +158,16 @@ This app uses Vite as its build tool. Vite requires the app to be run in browser
 
 ## Responsive Design
 Here are some screenshots of this app on different devices:
+## Responsive Design
+Here are some screenshots of this app on different devices:
 
-- Pixel 7:
+- **Pixel 7:**  
   <img src="AppPhotos/Pixel7.png" width="410" alt="Pixel 7 Screenshot">
   
-- Surface Duo:
+- **Surface Duo:**  
   <img src="AppPhotos/SurfaceDuo.png" width="540" alt="Surface Duo Screenshot">
-  
-- Nest Hub Max:
+
+- **Nest Hub Max**:
   ![Nest Hub Max Screenshot](AppPhotos/NestHubMax.png)
 
 ## Accessibility
