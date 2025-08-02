@@ -1,0 +1,26 @@
+{
+  "name": "miniblogapp",
+  "version": "1.0.0",
+  "description": "DailyThoughts is a full-stack lightweight blog app designed to allow users to jot down their daily thoughts. It features a modern user interface, encrypted user sign-up/log-in, and CRUD operations on blog posts.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suz608/MiniBlogApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/suz608/MiniBlogApp/issues"
+  },
+  "homepage": "https://github.com/suz608/MiniBlogApp#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1"
+  }
+}

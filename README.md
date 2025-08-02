@@ -23,6 +23,7 @@ DailyThoughts is a full-stack lightweight blog app designed to allow users to jo
 - **User Data Storage**: MongoDB is used to store user data and blog posts.
 - **Pagination**: Posts are paginated, allowing users to browse through posts in manageable chunks.
 - **Page Navigation**: Provides a navigation bar and a dropdown menu, allowing users to navigate through different pages of the app.
+- **Well tested**: This app uses Cypress for component testing and Playwright for end-to-end (E2E) testing.
 
 ## Initial Design
 
@@ -118,7 +119,66 @@ To get started, make sure you have the following installed:
     ```bash
     npm start
     ```
+<<<<<<< HEAD
     
+=======
+### Testing
+> Component testing using Cypress
+
+1. Navigate to 'frontend' folder
+2. Run the following in the terminal
+    ```bash
+    npx cypress open
+    ```
+3. Select 'Component Testing'
+4. Select your preferred browser to test any component of the app.
+
+> E2E Testing using Playwright
+
+1. Setup environment file:
+  - Create `.env` file in root directory:
+  ```bash
+  touch .env
+  ```
+  - Add the following to `.env` file:
+  ```bash
+  BASE_URL= <FRONTEND-URL>
+  ```
+2. Run tests:
+
+  Inside the root directory, you can run several commands:
+
+  ```bash
+  npx playwright test
+  ```
+  Runs the end-to-end tests.
+
+  ```bash
+  npx playwright test --ui
+  ```
+  Starts the interactive UI mode.
+
+  ```bash
+  npx playwright test --project=chromium
+  ```
+  Runs the tests only on Desktop Chrome.
+
+  ```bash
+  npx playwright test example
+  ```
+  Runs the tests in a specific file.
+
+  ```bash
+  npx playwright test --debug
+  ```
+  Runs the tests in debug mode.
+
+  ```bash
+  npx playwright codegen
+  ```
+  Auto generate tests with Codegen.
+
+>>>>>>> c0af61f (Updated README and added untracked files)
 ## Technical Implementation
 ### Frontend:
 - Vue.js: The frontend is built using Vue.js, a progressive JavaScript framework.
@@ -130,6 +190,10 @@ To get started, make sure you have the following installed:
 ### Backend:
 - Express.js: A lightweight, fast framework to build the REST API for handling blog data and user authentication.
 - MongoDB & Mongoose: MongoDB is the database for storing user information and blog posts, providing a NoSQL solution for handling dynamic and flexible data models. Mongoose is used to interact with MongoDB in an easy-to-use, schema-based manner.
+### Testing:
+- Cypress: A popular end-to-end testing framework for web applications. It allows us to write tests that interact with our frontend as a user would, testing both the functionality and the UI.
+- Playwright: A powerful framework for end-to-end testing. It's known for its speed, reliability, and its ability to interact with browsers in a more granular way than Cypress.
+
 ### Authentication:
 JWT (JSON Web Token): User authentication is handled via JWT, ensuring secure token-based login and session management.
 ## Screenshots
