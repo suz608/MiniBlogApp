@@ -2,7 +2,7 @@
 
 DailyThoughts is a full-stack lightweight blog app designed to allow users to jot down their daily thoughts. It features a modern user interface, encrypted user sign-up/log-in, and CRUD operations on blog posts.
 
-## Table of Contents
+## Table of Contentstext-[rgb(112,112,112)]
 - [Features](#features)
 - [Initial Design](#initial-design)
 - [Installation](#Installation)
@@ -11,6 +11,7 @@ DailyThoughts is a full-stack lightweight blog app designed to allow users to jo
 - [Deployment](#deployment)
 - [Browser Compatibility](#browser-compatibility)
 - [Responsive Design](#responsive-design)
+- [Accessibility](#accessibility)
 - [License](#license)
 
 ## Features
@@ -158,6 +159,12 @@ This app uses Vite as its build tool. Vite requires the app to be run in browser
 
 ## Responsive Design
 Here are some screenshots of this app on different devices:
+
+- Pixel 7:
+  ![Pixel 7 Screenshot](AppPhotos/Pixel7.png)
+- Surface Duo:
+  ![Surface Duo Screenshot](AppPhotos/SurfaceDuo.png)
+- Nest Hub Max:
 ## Responsive Design
 Here are some screenshots of this app on different devices:
 
@@ -169,6 +176,11 @@ Here are some screenshots of this app on different devices:
 
 - **Nest Hub Max**:
   ![Nest Hub Max Screenshot](AppPhotos/NestHubMax.png)
+
+## Accessibility
+This app uses black and white colors widely to improve its accessibility. It scored 88 in lighthouse accessibility test.
+
+![lighthouse](AppPhotos/lighthouse.png)
 
 ## Accessibility
 This app uses black and white colors widely to improve its accessibility. It scored 88 in lighthouse accessibility test.
