@@ -109,6 +109,14 @@ To get started, make sure you have the following installed:
 
       # Secret key for JWT Authentication (Set it to anything you want)
       JWT_SECRET=your-secret-key-here
+
+      # Redis settings
+      REDIS_SERVER=your-redis-server-address
+
+      REDIS_PORT=your-redis-server-port (Usually 6379)
+
+      REDIS_AUTH_KEY=your-redis-password
+
       ```
 
 4. Start the backend server:
@@ -119,9 +127,6 @@ To get started, make sure you have the following installed:
     ```bash
     npm start
     ```
-<<<<<<< HEAD
-    
-=======
 ### Testing
 > Component testing using Cypress
 
@@ -178,7 +183,6 @@ To get started, make sure you have the following installed:
   ```
   Auto generate tests with Codegen.
 
->>>>>>> c0af61f (Updated README and added untracked files)
 ## Technical Implementation
 ### Frontend:
 - Vue.js: The frontend is built using Vue.js, a progressive JavaScript framework.
@@ -188,8 +192,13 @@ To get started, make sure you have the following installed:
 - PrimeIcons: PrimeIcons is used for elegant icons that add to the modern UI experience.
 - Axios: Axios is used for making API calls to the backend.
 ### Backend:
-- Express.js: A lightweight, fast framework to build the REST API for handling blog data and user authentication.
+- Express.js: A lightweight, fast framework for building the REST API for handling blog data and user authentication.
 - MongoDB & Mongoose: MongoDB is the database for storing user information and blog posts, providing a NoSQL solution for handling dynamic and flexible data models. Mongoose is used to interact with MongoDB in an easy-to-use, schema-based manner.
+- Redis: A NoSQL key/value store used for caching frequently accessed data, reducing database load, and speeding up response times
+### Cloud Services
+- Render, Vercel: Hosts the backend and frontend of the app on cloud.
+- AWS EC2: The environment for hosting the Redis server, ensuring high availability and performance.
+
 ### Testing:
 - Cypress: A popular end-to-end testing framework for web applications. It allows us to write tests that interact with our frontend as a user would, testing both the functionality and the UI.
 - Playwright: A powerful framework for end-to-end testing. It's known for its speed, reliability, and its ability to interact with browsers in a more granular way than Cypress.
